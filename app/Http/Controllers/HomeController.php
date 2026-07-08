@@ -19,7 +19,7 @@ class HomeController extends Controller
                     'caption' => $title,
                     'title' => $title,
                     'titre' => $title,
-                    'description' => $slide->description ?? '',
+                    'description' => $slide->description,
                     'image_url' => $slide->image_url,
                 ];
             });

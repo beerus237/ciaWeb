@@ -1,7 +1,7 @@
 <template>
   <Head title="Connexion admin" />
 
-  <div class="page-hero flex min-h-[100dvh] flex-col items-center justify-center px-4 py-10">
+  <div class="page-hero flex min-h-screen flex-col items-center justify-center px-4 py-10">
     <div class="page-hero-orb-1" />
     <div class="page-hero-orb-2" />
 
@@ -27,6 +27,7 @@
               v-model="form.password"
               :type="showPassword ? 'text' : 'password'"
               required
+              autofocus
               class="field-input pr-11"
               placeholder="••••••••"
             />
